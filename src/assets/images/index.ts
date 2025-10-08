@@ -1,0 +1,13 @@
+export { default as HeroImage1Desktop } from "./desktop-image-hero-1.jpg";
+export { default as HeroImage2Desktop } from "./desktop-image-hero-2.jpg";
+export { default as HeroImage3Desktop } from "./desktop-image-hero-3.jpg";
+export { default as LeftAngleIcon } from "./icon-angle-left.svg";
+export { default as RightAngleIcon } from "./icon-angle-right.svg";
+export { default as ArrowIcon } from "./icon-arrow.svg";
+export { default as CloseIcon } from "./icon-close.svg";
+export { default as AboutImageDark } from "./image-about-dark.jpg";
+export { default as AboutImageLight } from "./image-about-light.jpg";
+export { default as SiteLogo } from "./logo.svg";
+export { default as HeroImage1Mobile } from "./mobile-image-hero-1.jpg";
+export { default as HeroImage2Mobile } from "./mobile-image-hero-2.jpg";
+export { default as HeroImage3Mobile } from "./mobile-image-hero-3.jpg";
