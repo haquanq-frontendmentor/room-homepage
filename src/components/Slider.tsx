@@ -97,6 +97,7 @@ export const Slider = (props: SliderProps) => {
 
   return (
     <div class="relative h-full">
+      <p class="sr-only" aria-live="polite" aria-atomic="true">{`Showing slide ${props.slideIndex} of 3`}</p>
       <div class="overflow-hidden h-full">
         <div
           class="*:select-none [&_img]:w-full [&_img]:h-full [&_img]:object-cover flex *:pointer-events-none *:h-full *:w-full relative h-full"
@@ -117,10 +118,10 @@ export const Slider = (props: SliderProps) => {
         </div>
       </div>
       <div class="absolute bottom-0 right-0 *:w-14 *:aspect-square *:bg-black *:flex *:items-center flex *:justify-center *:hover:bg-gray-800 *:transition-colors md:*:w-20 lg:left-full lg:right-auto">
-        <button type="button" onClick={handlePrevClick}>
+        <button type="button" onClick={handlePrevClick} aria-label="Prev slide">
           <img src={LeftAngleIcon} alt="" />
         </button>
-        <button type="button" onClick={handleNextClick}>
+        <button type="button" onClick={handleNextClick} aria-label="Next slide">
           <img src={RightAngleIcon} alt="" />
         </button>
       </div>
