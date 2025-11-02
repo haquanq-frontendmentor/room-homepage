@@ -20,6 +20,8 @@ This is a solution to the [Room homepage challenge on Frontend Mentor](https://w
   /></a>
 </p>
 
+![](./docs/preview.jpg)
+
 ## Table of Contents
 
 - [Project Overview](#sunrise-project-overview)
@@ -45,10 +47,6 @@ Accessibility
 
 - [x] Responsive accross different screen sizes
 - [x] Interactive elements have clear focus indicator
-
-### Preview (Desktop)
-
-![](./docs/preview.jpg)
 
 ## :stars: Tech Stack and Approach
 
@@ -91,4 +89,4 @@ pnpm dev
 
 ## :maple_leaf: Deployment
 
-Deployed to Github Pages via Github Actions (manually triggered).
+Deployed to Github Pages via Github Action.
