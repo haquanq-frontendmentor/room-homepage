@@ -1,0 +1,15 @@
+{
+  "name": "Room Homepage",
+  "featured": false,
+  "colors:": {
+    "brand": "#222222"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/room-homepage/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "intermediate",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/interactive-slider-using-vanilla-tsjs-mobile-first-responsive-grid-3Msvq2oGke"
+  }
+}
