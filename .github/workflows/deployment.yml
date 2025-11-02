@@ -1,7 +1,11 @@
 name: Deploy to github-pages
 
 on:
-  workflow_dispatch:
+  push:
+    paths:
+      - "src/**"
+      - "public/**"
+      - "*.{js,ts,json}"
 
 permissions:
   contents: read
